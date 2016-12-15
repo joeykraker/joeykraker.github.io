@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+html.page { 
+  background: url(../joey.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	width:2200px;
+	padding:0px 0px 0px 0px;
+		margin: 20px auto;
+
+}
+body.info {
+	width:960px;
+	padding:0px 0px 0px 0px;
+	margin: 0px;
+
+	
+}
+div.center{
+	margin: 10px 0px 0px 500px;
+		width: 1500px;
+
+}
+figure.right {
+	float:right;
+}
+figure.left {
+	float:left;
+	
+}
+body.pictures {
+	display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+p
+{
+    display:inline;
+	font-family: 'Architects Daughter', cursive;
+}
+div {
+	width: 1000px;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+}
+p.home {
+	color: #FFFFFF;	
+}
+	nav.other{
+	color: #C9A67F;
+	
+}
+
+p.info{
+		display: inline;
+		float: left;}
+nav{
+ 
+
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+}
+nav {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 40px;
+	width: 600px;
+	text-align: center;
+		margin: 0px 200px auto 500px;
+
+	}
+	
+nav a {
+	
+	color: #FFFFFF;
+	text-decoration: none;
+	
+	}
+	nav.other a{
+	color: #C9A67F;
+	
+}
+nav a:hover {
+	color: #C9A67F;
+	font-size: 50px;
+	font-family: 'Schoolbell', cursive;
+	text-align: center;
+	margin: 0 auto;
+	transition: ease-in-out 0.5s;
+	
+}
+
+
+nav.other {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 40px;
+	width: 940px;
+	text-align: center;
+	margin: 0px 200px auto 500px;
+	
+}
+
+
+div.social{
+	text-align: right;
+	display:block;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
+}
+figure.info{ float:right;
+	display:inline;
+}
+div.info{
+		float: right;
+		display:inline;	
+}
+p.info {
+	width:600px;	
+	margin: 20px;
+	
+}
+img.pano{
+margin: 0px 500px;
+
+}
+div.first{
+	
+	margin:20px 653px;
+		width: 640px;
+
+}
+
+div.second{
+	margin: 20px 650px;
+	width: 640px;
+}

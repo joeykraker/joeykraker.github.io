@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+html { 
+  background: url(../joey.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+nav {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 40px;
+	margin: 0px 200px auto 500px;
+	width: 940px;
+	text-align: center;
+	}
+nav a {
+	
+	color: #FFFFFF;
+	text-decoration: none;
+	
+	}
+nav a:hover {
+	color:#102D80;
+	font-size: 50px;
+	font-family: 'Schoolbell', cursive;
+	text-align: center;
+	margin: 0 auto;
+	transition: ease-in-out 0.5s;
+	
+}
+
+nav.other {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 40px;
+	margin: 0px 200px auto 500px;
+	width: 940px;
+	text-align: center;
+	
+}
+
+
+div.social{
+	text-align: right;
+	display:block;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
+}
