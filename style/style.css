@@ -2,7 +2,7 @@
 /* CSS Document */
 
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -19,35 +19,31 @@ html.page {
   background-size: cover;
 }
 body {
-	width:2200px;
+	width:1200px;
 	padding:0px 0px 0px 0px;
-		margin: 20px auto;
+	margin: 20px 20px;
 
 }
 body.info {
 	width:960px;
 	padding:0px 0px 0px 0px;
 	margin: 0px;
+}
 
-	
+body.pictures{
+	width: 1300px;
 }
 div.center{
-	margin: 10px 0px 0px 500px;
-		width: 1500px;
+	margin: 10px 0px 0px 0px;
+		width: 1100px;
 
 }
-figure.right {
-	float:right;
-}
-figure.left {
-	float:left;
-	
-}
-body.pictures {
-	display: inline-block;
-    margin: 0px auto;
-    text-align: center;
-}
+img {display:inline;}
+
+figure {diplay: inline-block;
+	width:550px;
+	float: left;}
+
 p
 {
     display:inline;
@@ -88,7 +84,7 @@ nav {
 	font-size: 40px;
 	width: 600px;
 	text-align: center;
-		margin: 0px 200px auto 500px;
+		margin: 0px 250px auto 300px;
 
 	}
 	
@@ -105,7 +101,6 @@ nav a {
 nav a:hover {
 	color: #C9A67F;
 	font-size: 50px;
-	font-family: 'Schoolbell', cursive;
 	text-align: center;
 	margin: 0 auto;
 	transition: ease-in-out 0.5s;
@@ -118,7 +113,7 @@ nav.other {
 	font-size: 40px;
 	width: 940px;
 	text-align: center;
-	margin: 0px 200px auto 500px;
+	margin: 0px 200px auto 100px;
 	
 }
 
@@ -126,33 +121,30 @@ nav.other {
 div.social{
 	text-align: right;
 	display:block;
-	margin: 0 auto;
 	padding: 0px 10px 0px 10px;
 }
-figure.info{ float:right;
-	display:inline;
-}
-div.info{
-		float: right;
-		display:inline;	
-}
+
 p.info {
-	width:600px;	
-	margin: 20px;
-	
+	width:500px;	
+	margin: 20px 0px 30px 30px;
 }
 img.pano{
-margin: 0px 500px;
+margin: 25px 25px;
 
 }
-div.first{
+img.info{
+	margin: 30px 0px 0px;
 	
-	margin:20px 653px;
-		width: 640px;
-
 }
 
-div.second{
-	margin: 20px 650px;
-	width: 640px;
+div.second {
+	margin:30px 278px;
+	width: 580px
+	
+}
+
+div.pic {
+	width: 500px;
+	
+	
 }
